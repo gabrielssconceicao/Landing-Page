@@ -8,10 +8,17 @@
     --primary-color: #b28756;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
+
+
 
 
 .banner {
@@ -51,15 +58,32 @@ body {
     margin-bottom: 20px;
 }
 
-.text-area button {
-    margin-top: 20px;
-    display: block;
-    background-color: var(--primary-color);
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    padding: 10px 30px;
-    border-radius: 40px;
+
+
+
+
+
+.section-aboutUs {
+    display: flex;
 }
+
+.section-aboutUs-left {
+    flex: 1;
+}
+
+.section-aboutUs-left p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.section-aboutUs-right {
+    width: 500px;
+}
+
+.section-aboutUs-right img {
+    width: 100%;
+    box-shadow: 0 5px 10px #333;
+}
+
+

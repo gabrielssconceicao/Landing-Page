@@ -1,0 +1,60 @@
+.default {
+    padding: 50px 0;
+    height: fit-content;
+}
+
+.default .section-title,.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.default .section-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #666;
+    margin: 10px 0 40px ;
+}
+
+.default .section-body {
+    margin: auto;
+    
+    max-width: 1140px;
+    
+}
+
+.default.light {
+    background-color: #f7f7f7;   
+}
+
+.default.light .section-title, .default.default.light .section-body {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+    
+}
+
+.default.dark .section-title, .default.default.dark .section-body {
+    color: #fff;
+}
+
+.button {
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
