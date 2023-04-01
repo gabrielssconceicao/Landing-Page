@@ -61,8 +61,6 @@ body {
 
 
 
-
-
 .section-aboutUs {
     display: flex;
 }
@@ -88,6 +86,10 @@ body {
     box-shadow: 0 5px 10px #333;
 }
 
+
+
+
+
 .section-services {
     display: flex;
     justify-content: space-around;
@@ -109,11 +111,13 @@ body {
    width: 50px;
    margin-bottom: 25px;
 }
+
 .section-services .service h4 {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 .section-services .service p {
     font-size: 12px;
     color: #666;
@@ -126,6 +130,8 @@ body {
 .section-services .service:last-child {
     border-right: 3px solid #ddd;
 }
+
+
 
 
 .section-projects {
@@ -167,6 +173,7 @@ body {
     color: #777;
     border-bottom-color: var(--primary-color);
 }
+
 
 
 .section-projects-photos {
@@ -212,4 +219,79 @@ body {
 
 .section-projects-photoarea:hover .section-projects-photoinfo {
     display: flex;
+}
+
+
+
+.bg-team {
+    background: url('https://media.istockphoto.com/id/820815076/pt/foto/empty-wooden-and-blurred-nature-background.jpg?s=612x612&w=0&k=20&c=QsvkturOgt5zYb3iLgpR0sO6eOH216FWfyjqsV699uE=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.section-team-area {
+    background-color: rgb(0, 0, 0,0.7);
+    padding: 50px;
+    margin-bottom: 50px;    
+}
+
+.section-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.section-team .section-team-person {
+    width: 250px;
+    height: 100%;
+    min-height: 300px;
+    background-color: #fff;  
+    display: flex;  
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #000; 
+    border-radius: 15px;
+}
+
+.section-team-img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+}
+
+.section-team-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.section-team-role {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #999;
+}
+
+.section-team-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.section-team-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 50%;  
+}
+
+.section-team-social a:hover {
+    background-color: var(--primary-color);
 }
