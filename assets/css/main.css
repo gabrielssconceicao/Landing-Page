@@ -233,8 +233,7 @@ body {
 
 .section-team-area {
     background-color: rgb(0, 0, 0,0.7);
-    padding: 50px;
-    margin-bottom: 50px;    
+    padding: 50px;   
 }
 
 .section-team {
@@ -293,5 +292,58 @@ body {
 }
 
 .section-team-social a:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+.section-happy-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews .client-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.reviews .client-name {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.reviews .client-review {
+    text-align: center;
+    margin: 15px 0 25px;
+    color: #777;
+   
+}
+
+.slider-area {
+    display: flex;
+    gap: 5px;
+}
+
+.slider-area .slider {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.slider-area .slider:hover, .slider-area .slider.active{
     background-color: var(--primary-color);
 }
