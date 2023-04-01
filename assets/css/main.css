@@ -167,3 +167,49 @@ body {
     color: #777;
     border-bottom-color: var(--primary-color);
 }
+
+
+.section-projects-photos {
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects-photo {
+    width: 280px;
+}
+
+.section-projects-photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects-photoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.section-projects-photoinfo {
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.section-projects-photoinfo h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects-photoarea:hover .section-projects-photoinfo {
+    display: flex;
+}
