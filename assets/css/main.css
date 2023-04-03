@@ -413,3 +413,154 @@ body {
 .plan-prices button:hover {
     background-color: var(--primary-color);
 }
+
+
+
+
+
+.premium-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: self-start;
+    padding: 15px;
+}
+
+.premium-description-icon {
+    width: 100px;
+}
+
+.premium-description-features h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.premium-description-features p {
+    color: #666;
+    text-align: justify;
+    max-width: 80%;
+    margin-bottom: 15px;
+}
+
+.premium-description-features ul {
+    list-style: none;
+}
+
+.premium-description-features li {
+    display: flex;
+    align-items: center;
+    color: #666;
+    width: fit-content;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.premium-description-features li::before {
+    content: '';
+    width: 15px;
+    height: 1px;
+    margin-right: 5px;
+    background-color: #777;
+}
+
+
+
+.section-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+.fact {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fact h4 {
+    font-size: 30px;
+    color: var(--primary-color);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.fact h4::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #999;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.fact h5 {
+    font-size: 15px;
+}
+
+.fact p {
+    text-align: justify;
+    font-size: 11px;
+    color: #999;
+}
+
+
+#tell-about-us {
+    border-bottom: 1px solid #bbb;
+}
+.section-tell-about-us {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.share {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.links {
+    flex: 1;
+    
+}
+
+.links ul, .links li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px
+}
+.links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+a.twitter {background-color: lightseagreen;}
+
+a.linkedin {background-color: #0a66c2;}
+
+a.facebook {background-color:#1877f2;}
+
+a.googleplus { background-color: #ff0000;}
+
+a.pinterest { background-color: #cc0000;}
