@@ -1,7 +1,8 @@
 ## Landing Page ##
 
-Gerador de imagems aleatórias
+Github Pages -> <a href="https://gabrielssconceicao.github.io/Landing-Page/">Click here</a>
+
+# Gerador de imagems aleatórias (Random image generator) #
 site -> https://comohacerunapagina.es/pt/generador-imagenes-aleatorias/
 
-url da imagem-> 	
-https://api.lorem.space/image/movie?w=150&amp;amp;amp;amp;h=220
+url da imagem / image url-> https://api.lorem.space/image/{type}?w=150&amp;amp;amp;amp;h=220
