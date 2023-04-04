@@ -1,0 +1,78 @@
+footer {
+    min-height: 200px;
+   
+    max-height: fit-content;
+}
+
+.footer-body {
+    max-width: 1200px;
+    margin: auto;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-links, .footer-paragraph, .footer-form {
+    max-width: 400px;
+    min-width: 280px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.footer-links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 50%;  
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    background-color: var(--primary-color);
+}
+
+.footer-paragraph {
+    text-align: justify;
+    color: #aaa;
+}
+
+.footer-form {
+    background-color:rgba(170, 170, 170, 0.423);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center
+}
+
+.footer-form input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent
+}
+
+.footer-form input::placeholder {
+    text-align: center;
+    color: #bbb;
+    text-transform: uppercase;
+    font-size: 12px;
+}

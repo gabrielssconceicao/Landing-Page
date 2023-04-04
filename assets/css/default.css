@@ -26,7 +26,7 @@
     
 }
 
-.default.light {
+.light {
     background-color: #f7f7f7;   
 }
 
@@ -34,7 +34,7 @@
     color: #000;
 }
 
-.default.dark {
+.dark {
     background-color: #000;
     
 }
