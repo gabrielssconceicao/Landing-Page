@@ -1,0 +1,38 @@
+@media (min-width: 450px) and (max-width: 800px) {
+    
+    .menu-opener {
+        margin-right: 45px;
+        display: block;
+        width: 35px;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: rgba(0,0,0,0.8);
+        width: 70vw;
+        z-index: 99;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        font-size: 40px;
+        height: 80px;
+        border: 0;
+    }
+
+    .menu li.active a, .menu li a:hover {
+        border: 0;
+        color: var(--primary-color);
+    }
+
+    .section-aboutUs {
+        flex-direction: column;
+    }
+}
