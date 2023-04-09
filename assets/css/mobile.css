@@ -22,8 +22,8 @@
 
     .menu li a {
         font-weight: bold;
-        font-size: 40px;
-        height: 80px;
+        font-size: 30px;
+        height: 55px;
         border: 0;
     }
 
@@ -67,6 +67,90 @@
     .section-happy-clients {
         padding: 20px;
     }
+    
+    .section-tell-about-us {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 450px) {
+    
+    .menu-opener {
+        margin-right: 45px;
+        display: block;
+        width: 35px;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: rgba(0,0,0,0.8);
+        width: 70vw;
+        z-index: 99;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        font-size: 9px;
+        height: 50px;
+        border: 0;
+    }
+
+    .menu li.active a, .menu li a:hover {
+        border: 0;
+        color: var(--primary-color);
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+    }
+
+    .section-aboutUs {
+        flex-direction: column;
+    }
+
+    .section-aboutUs-left {
+        margin: 0 30px 30px;
+    }
+
+    .section-aboutUs-right {
+        width: auto;
+        margin: 0 30px 30px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-services .service, .section-services .service:last-child  {
+        border: none;
+    }
+
+    .section-services .service:nth-child(even) {
+        border-left: 1px solid none;
+    }
+
+    .section-services .service {
+        min-width: 100%;
+        align-self: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .section-happy-clients {
+        padding: 20px;
+    }  
     
     .section-tell-about-us {
         flex-wrap: wrap;
