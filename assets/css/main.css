@@ -25,7 +25,7 @@ body {
 
     height: calc(100vh - 100px);
     background-color: #444;
-    background-image: url('https://media.istockphoto.com/id/820815076/pt/foto/empty-wooden-and-blurred-nature-background.jpg?s=612x612&w=0&k=20&c=QsvkturOgt5zYb3iLgpR0sO6eOH216FWfyjqsV699uE=');
+    background-image: url('../images/photo2.jpg');
     background-size: cover;
     background-position:  center bottom ;
     overflow: hidden;

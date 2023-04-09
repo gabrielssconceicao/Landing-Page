@@ -35,4 +35,40 @@
     .section-aboutUs {
         flex-direction: column;
     }
+
+    .section-aboutUs-left {
+        margin: 0 30px 30px;
+    }
+
+    .section-aboutUs-right {
+        width: auto;
+        margin: 0 30px 30px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-services .service, .section-services .service:last-child  {
+        border: none;
+    }
+
+    .section-services .service:nth-child(even) {
+        border-left: 1px solid #ddd;
+    }
+
+    .section-services .service {
+        min-width: 50%;
+        align-self: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .section-happy-clients {
+        padding: 20px;
+    }
+    
+    .section-tell-about-us {
+        flex-wrap: wrap;
+    }
 }
