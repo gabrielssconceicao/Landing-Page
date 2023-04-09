@@ -22,6 +22,10 @@ header {
     border-radius: 50%;
 }
 
+.menu {
+    display: block;
+}
+
 .menu ul, .menu li {
    list-style: none;
    
