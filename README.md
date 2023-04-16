@@ -3,9 +3,7 @@
 Github Pages -> <a href="https://gabrielssconceicao.github.io/Landing-Page/">Click here</a>
 
 ## Gerador de imagems aleatórias (Random image generator) ##
-site -> https://comohacerunapagina.es/pt/generador-imagenes-aleatorias/
-
-url da imagem / image url-> https://api.lorem.space/image/{type}?w=150&amp;amp;amp;amp;h=220
 
 
-imagems -> https://pixabay.com/pt/
+
+As imagens usadas foram retiradas deste site / The images were taken from this site-> https://pixabay.com/pt/
